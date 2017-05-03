@@ -1,0 +1,7 @@
+Step name;Lines input;Lines output;Lines rejected;Duration
+CSV file input - Browser;41;0;0;43
+Insert / Update Browser;40;0;0;189
+CSV file input - OS;11;0;0;64
+Insert / Update OS;10;0;0;273
+CSV file input - ClickStream;5001;0;0;379
+Table output events;0;0;4997;2253

@@ -1,0 +1,108 @@
+10:58:50,738 INFO  [KarafInstance] 
+*******************************************************************************
+*** Karaf Instance Number: 1 at /Applications/data-integration/./system/kar ***
+***   af//data1                                                             ***
+*** Karaf Port:8801                                                         ***
+*** OSGI Service Port:9050                                                  ***
+*******************************************************************************
+2017/05/03 10:58:57 - Kitchen - Start of run.
+2017/05/03 10:58:59 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+10:59:04,587 ERROR [WebjarsURLConnection] Error Transforming zip
+java.io.IOException: Pipe closed
+	at java.io.PipedInputStream.checkStateForReceive(PipedInputStream.java:260)
+	at java.io.PipedInputStream.receive(PipedInputStream.java:226)
+	at java.io.PipedOutputStream.write(PipedOutputStream.java:149)
+	at java.util.zip.DeflaterOutputStream.deflate(DeflaterOutputStream.java:253)
+	at java.util.zip.ZipOutputStream.closeEntry(ZipOutputStream.java:255)
+	at org.pentaho.osgi.platform.webjars.WebjarsURLConnection.transform(WebjarsURLConnection.java:190)
+	at org.pentaho.osgi.platform.webjars.WebjarsURLConnection.access$000(WebjarsURLConnection.java:54)
+	at org.pentaho.osgi.platform.webjars.WebjarsURLConnection$2.call(WebjarsURLConnection.java:90)
+	at org.pentaho.osgi.platform.webjars.WebjarsURLConnection$2.call(WebjarsURLConnection.java:87)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+10:59:04,612 ERROR [WebjarsURLConnection] Error Transforming zip
+java.io.IOException: Pipe closed
+	at java.io.PipedInputStream.checkStateForReceive(PipedInputStream.java:260)
+	at java.io.PipedInputStream.receive(PipedInputStream.java:226)
+	at java.io.PipedOutputStream.write(PipedOutputStream.java:149)
+	at java.util.zip.DeflaterOutputStream.deflate(DeflaterOutputStream.java:253)
+	at java.util.zip.ZipOutputStream.closeEntry(ZipOutputStream.java:255)
+	at org.pentaho.osgi.platform.webjars.WebjarsURLConnection.transform(WebjarsURLConnection.java:190)
+	at org.pentaho.osgi.platform.webjars.WebjarsURLConnection.access$000(WebjarsURLConnection.java:54)
+	at org.pentaho.osgi.platform.webjars.WebjarsURLConnection$2.call(WebjarsURLConnection.java:90)
+	at org.pentaho.osgi.platform.webjars.WebjarsURLConnection$2.call(WebjarsURLConnection.java:87)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017/05/03 10:59:21 - dw - Start of job execution
+2017/05/03 10:59:21 - dw - Starting entry [browser]
+2017/05/03 10:59:21 - browser - Loading transformation from XML file [file:///Users/jmangalampalli/Desktop/intuit/browser.ktr]
+2017/05/03 10:59:21 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/05/03 10:59:21 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/05/03 10:59:21 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/05/03 10:59:21 - browser - Dispatching started for transformation [browser]
+2017/05/03 10:59:21 - CSV file input - Browser.0 - Header row skipped in file '/Users/jmangalampalli/Desktop/intuit/4 Data Team - Browser_Sample.csv'
+2017/05/03 10:59:21 - CSV file input - Browser.0 - Finished processing (I=41, O=0, R=0, W=40, U=0, E=0)
+2017/05/03 10:59:21 - String operations.0 - Finished processing (I=0, O=0, R=40, W=40, U=0, E=0)
+2017/05/03 10:59:21 - Get System Info.0 - Finished processing (I=0, O=0, R=40, W=40, U=0, E=0)
+2017/05/03 10:59:21 - Split Fields.0 - Finished processing (I=0, O=0, R=40, W=40, U=0, E=0)
+2017/05/03 10:59:21 - Insert / Update Browser.0 - Finished processing (I=40, O=0, R=40, W=40, U=40, E=0)
+2017/05/03 10:59:21 - Output steps metrics.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2017/05/03 10:59:21 - Text file output log.0 - Finished processing (I=0, O=3, R=2, W=2, U=0, E=0)
+2017/05/03 10:59:21 - dw - Starting entry [os]
+2017/05/03 10:59:21 - os - Loading transformation from XML file [file:///Users/jmangalampalli/Desktop/intuit/os.ktr]
+2017/05/03 10:59:21 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/05/03 10:59:22 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/05/03 10:59:22 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/05/03 10:59:22 - os - Dispatching started for transformation [os]
+2017/05/03 10:59:22 - CSV file input - OS.0 - Header row skipped in file '/Users/jmangalampalli/Desktop/intuit/4 Data Team - OperatingSystem_Sample2.csv'
+2017/05/03 10:59:22 - CSV file input - OS.0 - Finished processing (I=11, O=0, R=0, W=10, U=0, E=0)
+2017/05/03 10:59:22 - String operations.0 - Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2017/05/03 10:59:22 - Get System Info.0 - Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2017/05/03 10:59:22 - Split Fields.0 - Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2017/05/03 10:59:22 - Modified Java Script Value.0 - Optimization level set to 9.
+2017/05/03 10:59:22 - Modified Java Script Value.0 - Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2017/05/03 10:59:22 - Insert / Update OS.0 - Finished processing (I=10, O=0, R=10, W=10, U=10, E=0)
+2017/05/03 10:59:22 - Output steps metrics.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2017/05/03 10:59:22 - Text file output log.0 - Finished processing (I=0, O=2, R=2, W=2, U=0, E=0)
+2017/05/03 10:59:22 - dw - Starting entry [page events]
+2017/05/03 10:59:22 - page events - Loading transformation from XML file [file:///Users/jmangalampalli/Desktop/intuit/events.ktr]
+2017/05/03 10:59:22 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/05/03 10:59:22 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/05/03 10:59:22 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/05/03 10:59:22 - events - Dispatching started for transformation [events]
+2017/05/03 10:59:22 - Table output user agent.0 - Connected to database [local] (commit=10)
+2017/05/03 10:59:22 - Table output date.0 - Connected to database [local] (commit=10)
+2017/05/03 10:59:22 - Table output events.0 - Connected to database [local] (commit=1000)
+2017/05/03 10:59:22 - Table output referrer.0 - Connected to database [local] (commit=1)
+2017/05/03 10:59:22 - CSV file input - ClickStream.0 - Header row skipped in file '/Users/jmangalampalli/Desktop/intuit/4 Data Team - ClickStream_Sample.csv'
+2017/05/03 10:59:22 - Modified Java Script Value.0 - Optimization level set to 9.
+2017/05/03 10:59:23 - CSV file input - ClickStream.0 - Finished processing (I=5001, O=0, R=0, W=5000, U=0, E=0)
+2017/05/03 10:59:23 - If field value is null.0 - Finished processing (I=0, O=0, R=5000, W=5000, U=0, E=0)
+2017/05/03 10:59:23 - Get System Info.0 - Finished processing (I=0, O=0, R=5000, W=10000, U=0, E=0)
+2017/05/03 10:59:23 - Select values.0 - Finished processing (I=0, O=0, R=5000, W=4997, U=0, E=3)
+2017/05/03 10:59:23 - Dummy (do nothing).0 - Finished processing (I=0, O=0, R=3, W=3, U=0, E=0)
+2017/05/03 10:59:23 - Select values 2.0 - Finished processing (I=0, O=0, R=4997, W=9994, U=0, E=0)
+2017/05/03 10:59:24 - Table output date.0 - Finished processing (I=0, O=0, R=4997, W=0, U=0, E=4997)
+2017/05/03 10:59:24 - Dummy (do nothing) 2.0 - Finished processing (I=0, O=0, R=4997, W=4997, U=0, E=0)
+2017/05/03 10:59:24 - Table output user agent.0 - Finished processing (I=0, O=0, R=5000, W=0, U=0, E=5000)
+2017/05/03 10:59:24 - Dummy (do nothing) 3.0 - Finished processing (I=0, O=0, R=5000, W=5000, U=0, E=0)
+2017/05/03 10:59:24 - Database lookup.0 - Finished processing (I=0, O=0, R=4997, W=4997, U=0, E=0)
+2017/05/03 10:59:24 - Filter rows.0 - Finished processing (I=0, O=0, R=4997, W=4997, U=0, E=0)
+2017/05/03 10:59:24 - Modified Java Script Value.0 - Finished processing (I=0, O=0, R=4997, W=4997, U=0, E=0)
+2017/05/03 10:59:25 - Text file output.0 - Finished processing (I=0, O=4998, R=4997, W=4997, U=0, E=0)
+2017/05/03 10:59:25 - Table output events.0 - Finished processing (I=0, O=0, R=4997, W=0, U=0, E=4997)
+2017/05/03 10:59:25 - Output steps metrics.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2017/05/03 10:59:25 - Text file output log.0 - Finished processing (I=0, O=2, R=2, W=2, U=0, E=0)
+2017/05/03 10:59:25 - dw - Starting entry [Success]
+2017/05/03 10:59:25 - dw - Finished job entry [Success] (result=[true])
+2017/05/03 10:59:25 - dw - Finished job entry [page events] (result=[true])
+2017/05/03 10:59:25 - dw - Finished job entry [os] (result=[true])
+2017/05/03 10:59:25 - dw - Finished job entry [browser] (result=[true])
+2017/05/03 10:59:25 - dw - Job execution finished
+2017/05/03 10:59:25 - Kitchen - Finished!
+2017/05/03 10:59:25 - Kitchen - Start=2017/05/03 10:58:57.849, Stop=2017/05/03 10:59:25.284
+2017/05/03 10:59:25 - Kitchen - Processing ended after 27 seconds.

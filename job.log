@@ -1,0 +1,55 @@
+Job Start-2017-05-03 12:39:16.101050-
+4 Data Team - Browser_Sample.csv-2017-05-03 12:39:16.414076-Processing Browser data 40
+Browser-0- inserted
+Browser-1903- inserted
+Browser-4003- inserted
+Browser-4501- inserted
+Browser-6101- inserted
+Browser-7801- inserted
+Browser-8701- inserted
+Browser-11404- inserted
+Browser-14603- inserted
+Browser-18403- inserted
+Browser-20601- inserted
+Browser-24101- inserted
+Browser-74511- inserted
+Browser-84511- inserted
+Browser-104511- inserted
+Browser-144511- inserted
+Browser-164511- inserted
+Browser-194511- inserted
+Browser-254511- inserted
+Browser-274511- inserted
+Browser-304511- inserted
+Browser-344511- inserted
+Browser-404511- inserted
+Browser-414513- inserted
+Browser-414514- inserted
+Browser-414615- inserted
+Browser-414713- inserted
+Browser-414714- inserted
+Browser-414715- inserted
+Browser-414716- inserted
+Browser-414717- inserted
+Browser-414913- inserted
+Browser-415013- inserted
+Browser-415014- inserted
+Browser-415113- inserted
+Browser-415114- inserted
+Browser-415115- inserted
+Browser-415117- inserted
+Browser-415118- inserted
+Browser-415119- inserted
+4 Data Team - OperatingSystem_Sample2.csv-2017-05-03 12:39:16.598061-Processing Os data 10
+Os-701- inserted
+Os--1- inserted
+Os-401- inserted
+Os-801- inserted
+Os-1101- inserted
+Os-3301- inserted
+Os-1901- inserted
+Os-3602- inserted
+Os-2301- inserted
+Os-3604- inserted
+4 Data Team - ClickStream_Sample.csv-2017-05-03 12:39:16.632518-Processing Clickstream data 5000
+Job End-2017-05-03 12:39:35.098003-
